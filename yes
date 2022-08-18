@@ -1,0 +1,53 @@
+[33mcommit 7a039c614954b827329af63cd600143812fd0c38[m[33m ([m[1;36mHEAD -> [m[1;32mtextando[m[33m)[m
+Author: Michael Favero <michaelpatric@outlook.com>
+Date:   Thu Aug 18 19:08:05 2022 -0300
+
+    Commit na branch textando
+
+[1mdiff --git a/testando.html b/testando.html[m
+[1mindex 626b0b2..e69de29 100644[m
+[1m--- a/testando.html[m
+[1m+++ b/testando.html[m
+[36m@@ -1,12 +0,0 @@[m
+[31m-<!DOCTYPE html>[m
+[31m-<html lang="pt-BR">[m
+[31m-<head>[m
+[31m-    <meta charset="UTF-8">[m
+[31m-    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[31m-    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[31m-    <title>Site teste</title>[m
+[31m-</head>[m
+[31m-<body>[m
+[31m-    <h1>testando o meu site</h1>[m
+[31m-</body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+
+[33mcommit 8c4574703626fe943a9e99bd0cb71cc785a726bd[m
+Author: Michael Favero <michaelpatric@outlook.com>
+Date:   Thu Aug 18 18:46:52 2022 -0300
+
+    Criando pasta testando.html
+
+[1mdiff --git a/testando.html b/testando.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..626b0b2[m
+[1m--- /dev/null[m
+[1m+++ b/testando.html[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt-BR">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <title>Site teste</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <h1>testando o meu site</h1>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/teste.html b/teste.html[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
