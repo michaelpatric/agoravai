@@ -1,0 +1,12 @@
+table {
+    width: 300px;
+    border: 3px solid #000;
+}
+table tr > th {
+    color:#000;
+    border: 1px solid #000;
+}
+table tr > td {
+    border: 1px solid rgb(154, 142, 142);
+}
+

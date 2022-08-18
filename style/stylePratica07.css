@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.texto {
+    width: 800px;
+    height: 500px;
+    background-color:#eee;
+    color:red;
+    text-align: center;
+    font-size:24px;
+    margin:auto;
+}
+
+.flutuante {
+    height:100px;
+    background-color: #0f0;
+    color:#003;
+    position: absolute;
+    bottom:50%;
+    left:25%;
+}

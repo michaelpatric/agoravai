@@ -1,0 +1,25 @@
+table {
+    width: 650px;
+    border: 3px solid rgb(145, 141, 141);
+}
+thead tr > th {
+    border: 1px solid #000;
+}
+
+tbody tr td {
+    text-align: center;
+    border: 1px solid #008;
+}
+
+.col-yellow {
+    background-color: rgb(255, 255, 0)
+}
+
+.col-blue {
+    background-color:rgb(0, 255, 229)
+}
+
+.col-green {
+    background-color:rgb(12, 240, 31)
+}
+

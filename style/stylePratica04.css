@@ -1,0 +1,36 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color:#00f;
+    margin:0;
+    padding:0;
+}
+
+.menu a {
+    color:#fff;
+    display:block;
+    padding:10px;
+}
+.menu a:hover {
+    background-color:#fff;
+    color:#00f;
+}
+.menu li {
+    list-style:none;
+    display:inline-block;
+}
+
+.submenu {
+    position:absolute;
+    display:none;
+    min-width:150px;
+}
+.menu li:hover .submenu {
+    display:block;
+}
+.submenu .menu li {
+    display:block;
+}

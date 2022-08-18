@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.texto {
+    width: 500px;
+    height: 900px;
+    background-color: #eea;
+
+    font-size: 35px;
+    font-family: Verdana;
+    font-weight:bold;
+
+    text-align:center;
+    text-transform:uppercase;
+
+    margin: auto;
+    margin-top:50px;
+    
+}
+p{
+    background-color:aqua;
+}
