@@ -1,12 +1,32 @@
 * {
     margin:0;
+    padding: 0;
 }
 
 .quadrado {
     width:500px;
     height: 300px;
     background-color:#f00;
-    margin: auto;
+    border: 2px solid rgb(0, 34, 255);
+    margin-bottom:15px;
+}
+
+.relative {
+    position: relative;
+    height: 600px;
+    left: 0;
+    top: 200px;
+}
+
+.absolute {
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    background-color: rgba(31, 96, 194, 0.621);
+}
+
+.normal {
+    height: 1500px;
 }
 
 @media only screen and (min-width:200px) and (max-width:600px) {
@@ -14,6 +34,8 @@
     .quadrado {
         width: 200px;
         background-color:#0ff; 
+        border: 2px solid #000;
+        margin:5px;
     }
 }
 
