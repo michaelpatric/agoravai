@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin: auto;
+    transition: all 1s linear;
+    
+}
+
+.exemplo:hover {
+    background-color: aqua;
+    width: 500px;
+}

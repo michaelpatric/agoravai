@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.exemplo {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 200px;
+    top: 400px;
+    background-color: rgb(255, 251, 0);
+
+    box-shadow: 10px 10px 10px #fff;
+}
+
+.exemplo2 {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    background-color: #fff;
+    margin: auto;
+    
+}
+
+.exemplo2 p {
+    color:#0f0;
+    text-align: center;
+    text-shadow: 2px 2px 3px #ff0;
+}
+
+.fotos img {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 200px;
+    box-shadow: 5px 5px 20px #0f0;
+    
+    
+}
+
+
