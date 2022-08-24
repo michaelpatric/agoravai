@@ -1,0 +1,73 @@
+* {
+    margin: 0px; /* Margem*/
+    padding: 0px; /* margem interna*/
+    font-family: Arial; /* Fonte escolhida*/
+    font-size: 12px; /* tamanho da fonte*/
+}
+
+/*definimos a largura, tamanho e posicionamento das divs abaixo*/
+.topo {
+    height: 30px; /*altura da caixa*/
+    background-color: #333; /*cor de fundo*/
+}
+
+.topoint {
+    width: 100%; /*Largura da caixa*/
+    max-width:1040px; /*Largura MAXIMA da caixa*/
+    height: 30px;
+    margin: auto; /*centraliza a caixa horizontamente*/
+}
+
+.topoleft {
+    width:50%;
+    height: 30px;
+    float: left; /*Deixa a caixa na esquerda*/
+    
+}
+
+.toporight {
+    width: 50%;
+    height: 28px;
+    float: right; /* Deixa a caixa na direita*/
+    text-align: right;/*Alinha o texto na direita*/
+    margin-top: 2px; /*Margem do topo*/
+    
+}
+
+.topoleft ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; /*tipo de estilo none é nenhum*/
+}
+
+/*Centralizar texto verticalmente line-height, margem de 8 px para cada lado para da um total de 16px*/
+.topoleft li{
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topoleft li a {
+    text-decoration: none;
+    color: #fff;
+}
+.topoleft li .ativo {
+    color: #00f;
+}
+
+.topobusca {
+    width: 110px;
+    height: 23px;
+    outline: 0; /* Usado para retirar a borda em volta da caixa*/
+    margin: 0;
+    padding: 0;
+}
+.toporight a {
+    float: right;
+}
+.toporight input{
+    float: right;
+}
+
