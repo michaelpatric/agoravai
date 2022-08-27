@@ -70,4 +70,49 @@
 .toporight input{
     float: right;
 }
+.toporight img {
+    margin-right: 4px;
+}
 
+.topo2 {
+    height: 95px;
+    color: #000;
+    
+}
+.topo2int {
+    width:100%;
+    max-width:1040px;
+    height:95px;
+    margin:auto;
+    
+}
+
+.logo {
+    width: 230px;
+    height:90px;
+    float: left;
+    margin-top: 5px;
+}
+
+.topo2 .banner {
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: #f00;
+}
+
+.topo2int .text_banner {
+    width:100%;
+    max-width: 300px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+}
+.text_banner h2 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
