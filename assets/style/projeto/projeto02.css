@@ -212,9 +212,7 @@
 }
 .leftside {
     width: 753px;
-    min-height: 200px;
     float: left;
-    background-color: #999;
 }
 .rightside {
     width: 275px;
@@ -253,4 +251,22 @@
 .noticia_item a {
     text-decoration:none;
     color:#000;
+}
+
+.slideshow {
+    height: 335px;
+    overflow:hidden;
+}
+.slideshowarea{
+    
+    height:335px;
+}
+.slide {
+    width: 750px;
+    height: 335px;
+    float: left;
+    background-image: url('http://www.google.com.br/google.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }
